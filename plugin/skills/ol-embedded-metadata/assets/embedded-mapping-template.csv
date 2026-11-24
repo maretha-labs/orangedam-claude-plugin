@@ -1,0 +1,14 @@
+Rule #,Datapoint,Create rule?,Priority (OrderNumber),Source Type,Source Field,In COR picker?,Option-list action,Destination Field,Destination Field Type,Direction,Notes
+1,Date Time Original,Yes,1,EXIF,DateTimeOriginal,Yes,None,DocDate,Date,Upload,Primary capture timestamp
+2,Date Time Original,Yes,2,XMP,-photoshop:DateCreated,Yes,None,DocDate,Date,Upload,Fallback for Photoshop exports
+3,Date Time Original,Yes,3,IPTC,Application2_DateCreated,Yes,None,DocDate,Date,Upload,IPTC fallback
+4,City,Yes,1,IPTC,Application2_City,Yes,None,Keyword_City,Multi-Valued,Both,COR default
+5,City,Yes,2,XMP,-photoshop:City,Yes,None,Keyword_City,Multi-Valued,Upload,XMP fallback
+6,Country,Yes,1,IPTC,Application2_CountryName,Yes,None,Keyword_Country,Multi-Valued,Both,COR default
+7,Country,Yes,2,XMP,-photoshop:Country,Yes,None,Keyword_Country,Multi-Valued,Upload,XMP fallback
+8,Camera Brand,Optional,1,EXIF,Make,Yes,None,acme.camera.CameraMake,Text,Upload,Enable if photo teams search by body
+9,Lens Model,Optional,1,EXIF,LensModel,No,Add to EXIFFieldsOptionList,acme.camera.LensModel,Text,Upload,Not in default COR EXIF picker
+10,Shutter Speed,Optional,1,EXIF,ExposureTime,Yes,None,acme.capture.ShutterSpeed,Text,Upload,Keep as Text (ExifTool returns 1/250)
+11,Focal Length,Optional,1,EXIF,FocalLength,Yes,None,acme.capture.FocalLength,Text,Upload,Keep as Text (ExifTool returns 50.0 mm)
+12,VR 360 Mode,Optional,1,XMP,-GPano:ProjectionType,No,Add to XMPFieldsOptionList_ClientSpecific,acme.video.VR360Projection,Text,Upload,360 photo XMP namespace
+13,VR 360 Mode,Optional,2,XMP,-GSpherical:ProjectionType,No,Add to XMPFieldsOptionList_ClientSpecific,acme.video.VR360Projection,Text,Upload,360 video XMP namespace

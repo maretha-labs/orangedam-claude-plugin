@@ -1,0 +1,11 @@
+Event Trigger,Recipient Group / Role,Sender Address,Default Enabled?,Escalation / Timing,Custom Copy Required?,Notes
+Download Request Submitted,Rights Administrators,dam-notifications@example.com,Yes,Immediate,Yes,Include asset IDs and intended-use summary
+Download Request Approved,Requester,dam-notifications@example.com,Yes,Immediate,Yes,Include direct download link and usage terms
+Download Request Rejected / Replaced,Requester,dam-notifications@example.com,Yes,Immediate,Yes,Include admin reason or replacement link
+New Account Registration Submitted,Administrators,dam-notifications@example.com,Yes,Immediate,Yes,Route to user approval queue
+New Account Approved / Welcome,New User,dam-notifications@example.com,Yes,Immediate,Yes,Include quick-start guide and vanity URL
+Asset Approaching Expiration,Asset Owner & Legal,dam-notifications@example.com,Yes,30 and 7 days prior,Yes,Prevent unlicensed campaign use
+Asset Expired (Auto-Hidden),Asset Owner & Admins,dam-notifications@example.com,Yes,On expiry date,Yes,Confirm Visibility Class changed to Hidden
+Task / FlowStep Assigned,Assignee,dam-notifications@example.com,Yes,Immediate,No,Link directly to asset/task
+Task Overdue Escalation,Assignee Manager,dam-notifications@example.com,Optional,24h past due,Yes,Configure per workflow SLA
+External Approval Invite,External Reviewer / Talent Rep,dam-notifications@example.com,Yes,Immediate,Yes,Include one-time link and deadline

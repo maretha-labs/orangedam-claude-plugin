@@ -1,0 +1,7 @@
+User Story ID,Use Case ID,Topic,As a (User Type),I want / I need,So that,Priority,Compatibility,Comments
+US-1,UC-1,"Search, download, watermarked assets",Marketing Team,to request access to unwatermarked versions of images,I can download clean assets for approved campaigns,MVP,Out-of-the-box,
+US-2,UC-2,"Accounts, login",Staff,to log in exclusively via corporate SSO,I automatically inherit employee security permissions,MVP,Configurable (Light),
+US-3,UC-3,"Cart, download, request assets",Staff,to enter intended use when requesting a restricted asset,requests auto-approve or route to rights admins,MVP,Out-of-the-box,
+US-4,UC-3,"Cart, download, request assets",Administrators,to review approve reject or replace requested assets,requesters receive compliant alternatives quickly,MVP,Out-of-the-box,
+US-5,UC-4,"Upload assets, Stack",Creative Team,OrangeDAM to stack files with matching names and different extensions,RAW and JPG derivatives stay linked cleanly,MVP,Out-of-the-box,
+US-6,UC-5,"Restrictions, expiration dates",Administrators,expired assets to hide automatically with advance alerts,teams never publish unlicensed assets,MVP,Out-of-the-box,

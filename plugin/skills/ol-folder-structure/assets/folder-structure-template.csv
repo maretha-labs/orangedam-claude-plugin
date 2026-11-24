@@ -1,0 +1,13 @@
+Level 1,Level 2,Level 3,Level 4,Projected Asset Count,Permission Boundary?,Mandatory Folder Metadata?,Notes
+Library,,,,0,Yes,No,Root governed repository
+Library,Marketing,,,12000,Yes,Yes,Department root
+Library,Marketing,2026 Campaigns,,18000,No,Yes,Partitioned annually to stay under 50K
+Library,Marketing,Brand Guidelines,,1500,Yes,No,Feeds Brand Guidelines portal
+Library,Photography,,,0,Yes,Yes,Photography root
+Library,Photography,Raw Shoots,2026,28000,Yes,Yes,Stacks enabled for RAW+JPG
+Library,Photography,Published Photography,,22000,Yes,Yes,Cleared public & press selects
+Library,Video Production,,,0,Yes,Yes,MAM video container
+Library,Video Production,Masters,,8500,Yes,Yes,High-res mezzanine & originals
+Draft Collateral,,,,0,Yes,No,Work-in-progress workspace
+Draft Collateral,Marketing WIP,,,4000,Yes,No,Department-restricted draft space
+Draft Collateral,Creative WIP,,,6000,Yes,No,Department-restricted draft space

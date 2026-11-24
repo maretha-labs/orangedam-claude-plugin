@@ -1,0 +1,7 @@
+System / Tool,Category,Integration Method,Direction,Data / Assets Exchanged,Target OrangeDAM Groups,Phase,Auth / Owner Notes
+Adobe Creative Cloud (Ps/Ai/Id/Pr),Creative,OL Adobe CC Panel,Bidirectional,Browse library + check-in new asset versions,Creative | Staff - Contributor,MVP,Grant desktop app Security Functions
+Dropbox Agency Dropzone,Watch Folder,Marketplace Connector,Inbound,External agency uploads auto-ingested to Pending Process,External Agency -> Creative,MVP,Map folder + default Visibility Class
+Headless CMS (e.g. Contentful),CMS,Marketplace / REST API,Outbound,Published Public renditions + CDN URLs + usage tracking,Marketing,MVP,Track published URLs via API
+Akeneo / Salsify PIM,PIM,Marketplace Connector,Bidirectional,SKU metadata sync + product imagery,Marketing | eCommerce,Post-MVP,Define field mapping table
+Signiant / MASV,Large Transfer,Accelerated Transfer,Bidirectional,>75 GB video masters & RAW shoots,Video Production,MVP,Confirm UDP firewall rules
+Slack,Notifications,Marketplace / Webhook,Outbound,Approval & workflow notifications,Staff,Post-MVP,[VERIFY IN SANDBOX / OL DOCS]

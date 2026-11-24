@@ -1,0 +1,24 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+*.swp
+
+# Environment & Secrets
+.env
+.env.*
+
+# Python & Local Tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node & Build
+node_modules/
+dist/
+build/
+
+# Claude Plugin Eval Outputs
+evals/results/

@@ -1,0 +1,13 @@
+Group,Account Type,Out-of-the-box,Custom,Test Account to Impersonate,Parent Groups,Who can add and remove users for this group?,Notes
+*Everyone,Security,x,,Anonymous,,,Root group for all visitors and registered accounts
+*UnregisteredUsers,Security,x,,Anonymous,*Everyone,,Unauthenticated external visitors
+*RegisteredUsers,Security,x,,test+registered@example.com,*Everyone,,All authenticated accounts
+*SuperAdmin,Security,x,,,,,Full unrestricted access
+Administrator,Security,x,,test+admin@example.com,,Administrator,Full DAM admin
+Basic External User,Security,,x,test+external@example.com,*RegisteredUsers,Administrator,Read-only partner/agency consumer
+Staff,Security,,x,test+staff@example.com,*RegisteredUsers,Administrator,Base internal employee security functions
+Staff - Contributor,Security,,x,test+contributor@example.com,Staff,Administrator,Can upload and edit metadata in Pending Process
+Staff - Advanced User,Security,,x,test+advanced@example.com,Staff,Administrator,Can edit/move/publish assets
+All Departments,Security,,x,test+alldepts@example.com,Staff,Administrator,Parent container for department generic groups
+Marketing,Generic,,x,test+marketing@example.com,All Departments,Administrator,Department-specific folder access
+Creative,Generic,,x,test+creative@example.com,All Departments,Administrator,Department-specific folder access

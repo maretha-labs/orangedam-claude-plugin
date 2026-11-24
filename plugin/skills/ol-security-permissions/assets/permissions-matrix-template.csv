@@ -1,0 +1,9 @@
+On Folder / Asset,Group,Visibility Class,On Subtypes,S,M,L,Original,Dwlnd Btn,Find,Share Own Access,Edit,Add / Upld,Delete,Move,Admin,Apply to contained assets,Inherit permissions from parent(s),Comments
+Library,Basic External User,Public,,x,x,,,x,x,,,,,,,x,Yes,Watermarked Small + Medium preview only; request originals via cart
+Library,Staff,Public,,x,x,x,x,x,x,x,,,,,,x,Yes,Full view/download on cleared Public assets
+Library,Staff,Internal Use Only,,x,x,x,x,x,x,,,,,,,x,Yes,Internal approved assets without external share passthrough
+Library,Staff - Contributor,Pending Process,,x,x,x,x,x,x,,x,x,,,,x,Yes,Upload & edit metadata while in Pending Process
+Library,Staff - Advanced User,,,x,x,x,x,x,x,x,x,x,,x,,x,Yes,Manage metadata and move assets across folders
+Library,Administrator,,,x,x,x,x,x,x,x,x,x,x,x,x,x,Yes,Full admin control on Library
+Draft Collateral,Marketing,,,x,x,x,x,x,x,,x,x,,x,,x,No,Isolated department WIP container
+Draft Collateral,Creative,,,x,x,x,x,x,x,,x,x,,x,,x,No,Isolated department WIP container

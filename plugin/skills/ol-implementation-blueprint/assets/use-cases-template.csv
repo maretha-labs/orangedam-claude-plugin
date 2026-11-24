@@ -1,0 +1,7 @@
+Use Case ID,Phase,Topics,Orange Logic Users (Groups),Scenario,Comments
+UC-1,MVP,"Search, download, watermarked assets",Marketing Team,"General users download watermarked previews by default while Marketing requests or directly downloads clean originals.",Map TR1_WATERMARKED (Small) vs TR1/TRX
+UC-2,MVP,"Accounts, login",Staff,Internal staff authenticate exclusively via corporate SSO.,Verify IdP claim mapping in Sandbox
+UC-3,MVP,"Cart, download, request assets","Administrators, Staff, General users",Users submit intended-use download requests for restricted assets; admins approve/reject with audit trail.,Configure automated request emails
+UC-4,MVP,"Upload assets, Stack",Creative Team,Same-filename JPG and RAW uploads link automatically into an asset Stack.,Enable Can see deployed stacks
+UC-5,MVP,"Restrictions, expiration dates",Administrators,Assets with usage expiration dates automatically hide and alert owners before expiry.,Align Visibility Class transition
+UC-6,Post-MVP,"Metadata fields, pairing values",Administrators,Link paired metadata values (e.g. person name + project role) on a single asset.,Confirm configuration approach with OL PM

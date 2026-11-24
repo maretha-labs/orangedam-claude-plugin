@@ -1,0 +1,9 @@
+Test ID,Impersonated Test Account,Target Group,Scenario,Expected Outcome,Pass/Fail,Notes
+UAT-01,Anonymous,*UnregisteredUsers,Visit DAM root URL,Redirected to login page (or Public Portal only if public homepage enabled),,Verify VPage_VPage.Data.UseAccessToWebSiteSecurity
+UAT-02,test+external@example.com,Basic External User,Search and preview Public vs Pending Process vs Internal assets,Sees Public only; Pending Process & Internal invisible; preview shows TR1_WATERMARKED,,Verify no clean TRX download without approval
+UAT-03,test+external@example.com,Basic External User,Submit download request via Cart with intended use,Request created; Admin receives email; status visible in My Requests,,Verify replacement and approval flow
+UAT-04,test+staff@example.com,Staff,Authenticate via SSO and download Public + Internal Use Only assets,SSO succeeds; downloads TR1/TRX directly; cannot see Hidden or edit metadata,,Verify SSO-only enforcement
+UAT-05,test+contributor@example.com,Staff - Contributor,Upload sample JPG+RAW pair and edit mandatory metadata,Lands in Pending Process; Stacks linked; mandatory fields enforced on save; EXIF/IPTC extracted,,Verify virus & MD5 ingest checks
+UAT-06,test+advanced@example.com,Staff - Advanced User,Transition asset from Pending Process to Public and move folder,Visibility Class updates; asset appears to Staff/External; audit trail logged,,Verify expired asset auto-hides
+UAT-07,test+marketing@example.com,Marketing (Generic),Access Draft Collateral - Marketing vs Creative WIP,Can edit/upload in Marketing WIP; cannot view Creative WIP,,Verify department isolation
+UAT-08,test+admin@example.com,Administrator,Approve cart request run usage report and restore deleted test asset,All admin actions succeed and appear in audit trail,,Confirm Sandbox sign-off before Prod

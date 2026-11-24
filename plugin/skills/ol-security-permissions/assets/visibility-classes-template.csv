@@ -1,0 +1,5 @@
+Visibility Class,Hex Color,Description,Default on Upload?,Allowed Transitions
+Pending Process,f7ca18,Default Visibility Class for newly uploaded or created assets awaiting metadata/review.,Yes,Pending Process -> Internal Use Only | Public | Hidden
+Public,40d650,Cleared assets available to authorized internal and external users.,No,Public -> Internal Use Only | Hidden
+Internal Use Only,4d6b8a,Approved assets restricted to internal Staff groups only.,No,Internal Use Only -> Public | Hidden
+Hidden,a4b2bd,Assets hidden from general users (expired restricted or archived).,No,Hidden -> Internal Use Only | Public (Admin only)

@@ -1,0 +1,11 @@
+File Extension,Asset Category,Sample Filename,Contains Embedded IPTC/XMP/EXIF?,Expected Preview / Proxy,Homepage Candidate?,Waiver Needed?,Notes
+.jpg,Image,sample_hero_01.jpg,Yes,TR7/TR4/TR1/TRX,Yes,No,Verify IPTC Headline and Caption extraction
+.png,Image,brand_logo_transparent.png,No,Transparent thumbnail + TRX,Yes,No,Verify alpha transparency
+.cr3,Image (RAW),sample_shoot_raw.cr3,Yes,RAW preview + Stack with JPG,No,No,Confirm camera RAW codec support
+.psd,Image (Design),campaign_keyart.psd,Yes,Multi-layer preview + TRX,No,No,Test Adobe CC integration
+.mp4,Video,promo_1080p.mp4,Yes,WebLow/WebHigh streaming proxy,Yes,No,Confirm frame-accurate scrubbing
+.mov,Video,master_prores_422.mov,Yes,Custom transcode + WebHigh,No,No,Verify audio channels and timecode
+.mp3,Audio,voiceover_spot.mp3,Yes,Web 128kbps stream,No,No,Verify ID3/sampling rate extraction
+.pdf,Document,brand_guidelines.pdf,Yes,Multi-page browser preview + OCR,No,No,Test inline annotation
+.glb,3D,product_model.glb,No,In-browser 3D viewer,No,Verify,Check 3D file extension eligibility
+.zip,Archive,deliverable_bundle.zip,No,Original download,No,Verify,Confirm ZIP ingest/extraction policy

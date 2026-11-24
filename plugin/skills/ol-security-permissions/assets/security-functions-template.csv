@@ -1,0 +1,21 @@
+Category,Capability,Related OrangeDAM Security Function,*UnregisteredUsers,*RegisteredUsers,Basic External User,Staff,Staff - Contributor,Staff - Advanced User,Administrator
+Browse,Access homepage without login,Can access to the web site (enable VPage_VPage.Data.UseAccessToWebSiteSecurity),0,1,1,1,1,1,1
+Browse,Browse Public Workspace,Can access the Public Workspace in Media Management,0,1,1,1,1,1,1
+Search,Search & Blank Search,Search asset | Can run searches without criteria,0,1,1,1,1,1,1
+Search,Saved & Advanced Search,Access to the saved search | Access to the advanced search,0,1,1,1,1,1,1
+Search,View Deployed Stacks,Can see deployed stacks,0,0,0,1,1,1,1
+Download,Request Original File Access,Request original file access,0,1,1,1,1,1,1
+Download,Custom Crop & Format Specs,Can download files with cropping option | User can download images in custom format,0,0,0,1,1,1,1
+Upload,Upload Assets,Can upload files in Orange Logic,0,0,0,0,1,1,1
+Upload,File Versioning,Show action button File versioning,0,0,0,0,1,1,1
+Share,Internal Share & Collections,Can Share assets | Collections,0,1,1,1,1,1,1
+Share,External Anonymous Share Links,Can Create Share Links For...,0,0,0,0,0,1,1
+Collaborate,Comments & Annotations,Access user comments on assets | Annotations on assets | Can view video annotations,0,0,1,1,1,1,1
+Manage,Asset Management Workspace,Access to Asset management,0,0,0,0,1,1,1
+Manage,Manage Tags & Vocabularies,Asset Tags | Tag tree | Merge Tags,0,0,0,0,0,1,1
+Manage,Manage Asset Restrictions,Asset restrictions,0,0,0,0,0,1,1
+Manage,Run Automated AI Services,Can auto-tag images | OCR | Facial recognition | Speech to text,0,0,0,0,0,1,1
+Manage,Orange Logic Desktop Apps,Can download Orange Logic applications | Orange LogicTools,0,0,0,1,1,1,1
+Admin,System Backend Menu & Reports,Access to the system backend menu | Reports,0,0,0,0,0,0,1
+Admin,Impersonate Other Users,Authorize to impersonate as another user,0,0,0,0,0,0,1
+Admin,View & Restore Deleted Assets,Can view and restore deleted assets,0,0,0,0,0,0,1

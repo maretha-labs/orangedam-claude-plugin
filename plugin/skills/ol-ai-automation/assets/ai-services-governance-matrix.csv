@@ -1,0 +1,8 @@
+AI Service,Provider (Built-in / BYO AI),Trigger Scope (On Upload / Manual / Folder),Eligible Subtypes,Target DAM Field / Action,Authorized Security Groups,Privacy / Cost Guardrail,Enabled in MVP?
+Image Auto-Tagging,Built-in / AWS Rekognition,On Upload (Published folders only),Image,Tags (Common) + Taxonomy automation rule,Staff - Advanced User | Administrator,Disable during bulk backfill unless budgeted,Yes
+OCR Text Extraction,Built-in / Cloud Vision,On Upload,PDF | Image,Full-text search index,Staff - Advanced User | Administrator,Cap page count on large archives,Yes
+Video Speech-to-Text & Captions,Built-in / Cloud STT,Manual (or Video Masters folder),Video | Audio,Searchable transcript + WebVTT captions,Staff - Advanced User | Administrator,Metered per-minute; avoid raw B-roll auto-run,Yes
+Facial Recognition,Built-in / BYO Vision,Manual (Talent-cleared shoots only),Image | Video,Talent tag + DRM release linkage,Administrator | Rights Admin,Requires Legal/biometric consent review first,Post-MVP
+Logo Detection,Built-in / BYO Vision,Manual,Image | Video,Brand compliance tag,Staff - Advanced User | Administrator,Scope to campaign review folders,Post-MVP
+NLP Semantic & Visual Search,OrangeAI Built-in,Always On (Index),Image | Video | PDF,Enhanced discovery & similar assets,*RegisteredUsers,Standard search index,Yes
+Agentic AI Workflow Rules,Agentic AI Studio,Event Triggered,All,Task routing & metadata enrichment,Administrator,Require human approval before Public transition,Post-MVP

@@ -1,0 +1,16 @@
+Tag Type (Category),Tag Term Level 0,Tag Term Level 1,Tag Term Level 2,Enforcement Mode,Notes
+Regional Offices,APAC,,,Controlled,Top-level region
+Regional Offices,APAC,Japan,,Controlled,
+Regional Offices,APAC,Japan,Tokyo,Controlled,
+Regional Offices,EMEA,,,Controlled,
+Regional Offices,EMEA,Germany,,Controlled,
+Regional Offices,EMEA,Germany,Berlin,Controlled,
+Regional Offices,NA,,,Controlled,
+Regional Offices,NA,United States,,Controlled,
+Regional Offices,NA,United States,Chicago,Controlled,
+Content Type,Photography,,,Controlled,Core asset format facet
+Content Type,Photography,Editorial,,Controlled,
+Content Type,Photography,Product Studio,,Controlled,
+Content Type,Video,,,Controlled,
+Content Type,Video,Broadcast Spot,,Controlled,
+Content Type,Video,Social Cutdown,,Controlled,

@@ -1,0 +1,30 @@
+{
+  "name": "maretha-orangedam-config",
+  "displayName": "OrangeDAM Config Assistant by Maretha",
+  "version": "1.0.0",
+  "description": "End-to-end configuration assistant for new Orange Logic (OrangeDAM) implementations: onboarding kickoff, metadata schemas, taxonomies, EXIF/IPTC/XMP mappings, folders, security groups, visibility classes, permissions, renditions, workflows, DRM, SSO, AI governance, integrations, and migration planning.",
+  "author": {
+    "name": "Maretha",
+    "url": "https://maretha.io"
+  },
+  "homepage": "https://github.com/maretha-labs/orangedam-claude-plugin",
+  "repository": "https://github.com/maretha-labs/orangedam-claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "orange-logic",
+    "orangedam",
+    "dam",
+    "mam",
+    "digital-asset-management",
+    "metadata",
+    "taxonomy",
+    "permissions",
+    "migration",
+    "maretha"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/maretha-labs/orangedam-claude-plugin/blob/main/docs/index.md",
+  "supportUrl": "https://github.com/maretha-labs/orangedam-claude-plugin/issues",
+  "privacyPolicyUrl": "https://github.com/maretha-labs/orangedam-claude-plugin/blob/main/docs/privacy.md",
+  "termsOfServiceUrl": "https://github.com/maretha-labs/orangedam-claude-plugin/blob/main/docs/terms.md"
+}

@@ -1,0 +1,13 @@
+Asset Type,Name,Size / Spec,Format Code,Size Category,Make Downloadable?,Watermark Applied?,Notes
+Image,Thumbnail - Small,192px fixed height,TR7,Small,No,No,Search grid thumbnail
+Image,Thumbnail - Medium,352px fixed height,TR4,Small,No,No,Search grid medium thumbnail
+Image,Low Resolution,800px x 800px,TR1_COMP,Small,Yes,Optional,Quick web reference
+Image,Medium Res. Watermarked,1200px x 1200px @ 75%,TR1_WATERMARKED,Small,Yes,Yes,Default for external / unapproved view
+Image,Medium Resolution,1200px x 1200px @ 75%,TR1,Medium,Yes,No,Unwatermarked internal preview
+Video,Web Low,320x240 H.264/AAC,WebLow,Small,Yes,Optional,Low-bandwidth proxy
+Video,Web High (720p),1280x720 H.264/AAC,WebHigh,Medium,Yes,No,Standard streaming preview
+Audio,Web Streaming,MP3 128kbps,Web,Small,Yes,No,In-browser audio playback
+Image,High Res Original,Original file,TRX,Original,Yes,No,Master image
+Video,High Res Original,Original file,TRX,Original,Yes,No,Master video
+Audio,Original,Original file,TRX,Original,Yes,No,Master audio
+Multimedia,Original,Original file,TRX,Original,Yes,No,PDF/Office/3D/Design masters

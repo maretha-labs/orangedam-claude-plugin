@@ -1,0 +1,13 @@
+Field Name in OrangeDAM,Field Name in CSV,Example Value,Field Type,Tag Type,Add to Filter Sidepanel,Show in Public Page workspace?,Searchable,Advanced Search,Mandatory,Map from Embedded Metadata on Upload,Map to IPTC / XMP Field on Download,Image,Video,Audio,Other (Multimedia),Folder,Virtual Folder,Orange Logic API Field Name,Operator,Column Label in the Imported CSV
+Original File Name,filename,campaign_hero_01.jpg,Text - Fewer than 500 characters,N/A,N/A,No,Yes,Yes,N/A,Filename,Filename,x,x,x,x,x,x,Corefield.OriginalFileName,=,[Original File Name]
+Title,title,Autumn Campaign Hero,Text - Fewer than 500 characters,N/A,N/A,Yes,Yes,Yes,No,Headline,Headline,x,x,x,x,x,x,CoreField.title,:=,[Title]
+Description,description,Studio product shot on light backdrop.,Long Text - No length limit,N/A,N/A,Yes,Yes,Yes,No,Caption (IPTC),Caption (IPTC),x,x,x,x,x,x,CoreField.description,:=,[Description]
+Asset Date,asset_date,2026-04-26,Date,N/A,No,Yes,Yes,Yes,No,DateCreated (IPTC),DateCreated (IPTC),x,x,x,x,x,x,CoreField.Document-date,:=,[Asset Date]
+Notes,admin_notes,Check with Legal before print use,Long Text - No length limit,N/A,N/A,No,Yes,Yes,No,N/A,N/A,x,x,x,x,x,x,CoreField.Notes,:=,[Notes]
+Usage Rights,usage_rights,Global digital through 2027-12-31,Long Text - No length limit,N/A,No,Yes,Yes,Yes,No,N/A,N/A,x,x,x,x,x,x,CoreField.Usage-rights,:=,[Usage Rights]
+Country,country,United States,Multi-Valued Field - Apply Tag only if it exists already,Country,Yes,Yes,Yes,Yes,No,Application2_CountryName,Application2_CountryName,x,x,x,x,x,x,Geography.Country,+=,[Country]
+City,city,Chicago,Multi-Valued Field - Create Tag if it does not exist,City,Yes,Yes,Yes,Yes,No,Application2_City,Application2_City,x,x,x,x,x,x,Geography.City,++=,[City]
+Source,creator,Alex Rivera,Single-Valued Field,Source Accounts,Yes,Yes,Yes,Yes,No,Byline (IPTC),Byline (IPTC),x,x,x,x,x,x,CoreField.Creator,+:=,[Source]
+Copyright,copyright,(c) Acme Media 2026,Text - Fewer than 500 characters,N/A,No,Yes,Yes,Yes,No,Copyright (IPTC),Copyright (IPTC),x,x,x,x,x,x,CoreField.copyright,:=,[Copyright]
+Tags,keywords,campaign|studio,Multi-Valued Field - Create Tag if it does not exist,Common,Yes,Yes,Yes,Yes,No,Keywords (IPTC),Keywords (IPTC),x,x,x,x,x,x,CoreField.Keywords,++=,[Tags]
+Orange Logic Unique Identifier,ol_uid,CTL90568,Text - Fewer than 500 characters,N/A,N/A,Yes,Yes,Yes,N/A,N/A,SpecialInstructions (IPTC),x,x,x,x,x,x,CoreField.unique-identifier,:=,[Orange Logic Unique Identifier]
